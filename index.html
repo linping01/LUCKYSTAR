@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>ลิงค์แชร์กิจกรรม</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "2000854151-8OPgZdj9" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "สายที่ไม่ได้รับ",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1154508833671090177/1154511166433923132/02.jpg",
+            "size": "full",
+            "aspectRatio": "10.40:10.40"
+          }
+        ],
+        "borderWidth": "normal",
+        "cornerRadius": "xl",
+        "borderColor": "#FFCC99"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "✰🅛🅤🅒🅚🅨⎽🅢🅣🅐🅡✰",
+            "size": "xl",
+            "align": "center",
+            "margin": "xl",
+            "offsetBottom": "xs",
+            "color": "#FFFFCC",
+            "gravity": "top",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "😍 ระบบเสถียรไม่มีสะดุด ⭐️⭐️⭐️⭐️⭐️",
+                "margin": "sm",
+                "size": "sm",
+                "align": "center",
+                "color": "#FFFFCC",
+                "style": "italic",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "🤩 บริการ 24 ชั่วโมง ⭐️⭐️⭐️⭐️⭐️",
+                "size": "sm",
+                "align": "center",
+                "color": "#FFFFCC",
+                "weight": "bold",
+                "style": "italic"
+              },
+              {
+                "type": "text",
+                "text": "🥳 คืนยอดเสีย 10% ⭐️⭐️⭐️⭐️⭐️",
+                "size": "sm",
+                "align": "center",
+                "color": "#FFFFCC",
+                "style": "italic"
+              }
+            ],
+            "borderColor": "#ffffff",
+            "borderWidth": "light",
+            "cornerRadius": "xl",
+            "paddingAll": "sm"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "รับเคsดิตฟรี",
+                  "uri": "https://lin.ee/KfelXle"
+                },
+                "color": "#ffffff"
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#FF0000",
+              "endColor": "#FFCCFF",
+              "centerColor": "#FF0000"
+            },
+            "borderWidth": "light",
+            "borderColor": "#FFCCFF",
+            "cornerRadius": "xl",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "สมัครสมาชิก",
+                  "uri": "https://whatslot888.com/"
+                },
+                "color": "#ffffff"
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#FF0000",
+              "endColor": "#FFCCFF",
+              "centerColor": "#FF0000"
+            },
+            "borderWidth": "light",
+            "borderColor": "#FFCCFF",
+            "cornerRadius": "xl",
+            "margin": "md"
+          }
+        ],
+        "spacing": "md",
+        "margin": "md"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#FFCC99",
+      "endColor": "#FFCC99",
+      "centerColor": "#FF6600"
+    },
+    "borderWidth": "normal",
+    "borderColor": "#FFCC99",
+    "cornerRadius": "xl",
+    "offsetTop": "none",
+    "paddingAll": "md"
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
